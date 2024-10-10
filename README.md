@@ -1,4 +1,4 @@
-# Vue-Jobs
+# <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="30" height="30" /> Vue-Jobs 
 
 Vue Jobs is a web application for learning Vuejs
 
