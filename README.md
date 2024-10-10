@@ -1,39 +1,31 @@
-# vue-jobs
+# Vue-Jobs
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue Jobs is a web application for learning Vuejs
 
-## Recommended IDE Setup
+## Techs used in development
+- Vite
+- Typescript
+- Tailwind
+- Vue-router
+- Vue-spinner
+- Vue-notification
+- Json-server
+- Axios
+- Prime-icons
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Features
+- Users able to add new Jobs with the filling form fields in Add Job Route.
+- Users able to display all jobs in Jobs Route.
+- Users able to edit & delete every single Job in Read More section.
 
 ## Project Setup
 
+Run following command to install dependencies.
 ```sh
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
+Next, run both the client and server and make sure both working.
 ```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+$ npm run dev
+$ npm run server
 ```
